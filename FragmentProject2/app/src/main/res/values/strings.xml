@@ -2,4 +2,7 @@
     <string name="app_name">FragmentProject</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="radioone">Zone Delta</string>
+    <string name="radiotwo">Zone Alpha</string>
+    <string name="radiothree">Zone Bravo</string>
 </resources>

@@ -4,10 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/back2"
+    tools:context=".Area2">
 
     <fragment
-        android:id="@+id/fragment2"
+        android:id="@+id/fragment6"
+        android:name="com.example.fragmentproject.Leaves"
+        android:layout_width="412dp"
+        android:layout_height="656dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragment4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragment"
         android:name="com.example.fragmentproject.BlankFragment"
         android:layout_width="413dp"
         android:layout_height="72dp"
