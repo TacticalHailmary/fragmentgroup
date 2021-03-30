@@ -36,6 +36,7 @@ public class Area2 extends AppCompatActivity {
         Button button1 = findViewById(R.id.button);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
+        Button btnExtract = findViewById(R.id.btnExtract);
         carmen = findViewById(R.id.carmen);
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +54,13 @@ public class Area2 extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Area2.this,Area3.class));
+            }
+        });
+
+        btnExtract.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Area2.this, Results.class));
             }
         });
 

@@ -5,4 +5,7 @@
     <string name="radioone">Zone Delta</string>
     <string name="radiotwo">Zone Alpha</string>
     <string name="radiothree">Zone Bravo</string>
+    <string name="btnExtract">Extract</string>
+    <string name="txtIntro">Keep an eye out. Carmen Sandiego is on site. She will be in one of three zones. Try to catch her. When you are ready, an extraction team will come get you.</string>
+    <string name="txtExtraction">Extraction Successful!</string>
 </resources>

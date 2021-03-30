@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TableRow;
 
 import java.util.Random;
 
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         Button button1 = findViewById(R.id.button);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
+        TableRow disappearingRow = findViewById(R.id.disappear);
+        disappearingRow.setVisibility(View.GONE);
         Random random = new Random();
 
         editor.putInt("area", random.nextInt(3));
